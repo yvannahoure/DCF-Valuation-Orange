@@ -1,62 +1,37 @@
-# 📊 Valorisation Orange S.A. - Analyse Equity Research
+# Valorisation Orange S.A.
 
-## 🎯 Objectif du projet
-Réalisation d'une analyse de valorisation complète d'Orange S.A., leader européen des télécommunications, en utilisant les méthodologies de recherche en equity (DCF, comparables, analyse sectorielle).
+## Objectif
+Analyse de valorisation d'Orange S.A. (ticker ORA.PA) utilisant les méthodologies DCF et comparables de marché.
 
-## 🏢 À propos d'Orange
+## Contexte
 - **Secteur** : Télécommunications
-- **Ticker** : ORA.PA (Euronext Paris)
 - **Capitalisation** : ~27 Md€
-- **Présence** : Europe (France, Espagne, Pologne) + Afrique & Moyen-Orient (18 pays)
-- **Chiffre d'affaires 2024** : ~42 Md€
+- **Géographie** : Europe + Afrique & Moyen-Orient (18 pays)
+- **CA 2024** : ~42 Md€
 
-## 📈 Méthodologie
+## Méthodologie
 
-### 1. Discounted Cash Flow (DCF)
-- Projections de flux de trésorerie disponibles sur 5 ans (2025-2029)
-- Calcul du WACC (Weighted Average Cost of Capital)
-- Valeur terminale (méthode de la perpétuité)
-- Analyse de sensibilité (WACC, taux de croissance terminal)
+**1. DCF (Discounted Cash Flow)**
+- Projections FCF 2025-2029
+- WACC : À déterminer
+- Valeur terminale (croissance perpétuelle)
+- Analyse de sensibilité
 
-### 2. Valorisation par Comparables
-Comparaison avec les pairs européens :
-- Deutsche Telekom (Allemagne)
-- Telefónica (Espagne)
-- Vodafone (UK)
-- BT Group (UK)
+**2. Comparables**
+Peers : Deutsche Telekom, Telefónica, Vodafone, BT Group
 
-**Multiples analysés** :
-- EV/EBITDA
-- P/E (Price/Earnings)
-- EV/Revenus
+Multiples : EV/EBITDA, P/E, EV/Revenus
 
-### 3. Analyse sectorielle
-- Tendances du marché européen des télécoms
-- Impact de la 5G et de la fibre optique
-- Positionnement stratégique d'Orange en Afrique
+## Structure
+- `Orange_Financial_Model.xlsx` - Modèle DCF complet
+- `Orange_Investment_Thesis.pdf` - Synthèse et recommandation
+- `data/` - Sources (rapports annuels, données de marché)
 
-## 📂 Structure du projet
-```
-DCF-Valuation-Orange/
-│
-├── 📊 Orange_Financial_Model.xlsx          (À venir)
-├── 📄 Orange_Investment_Thesis.pdf         (À venir)
-├── 📝 README.md                             (Ce fichier)
-└── 📁 data/
-    ├── Orange_Annual_Report_2024.pdf       (À venir)
-    └── Telecom_Comparables.xlsx            (À venir)
-```
+## Statut
+En développement - Mars 2026
 
-## 🎓 Contexte
-Projet personnel réalisé dans le cadre du MSc Corporate Finance & Fintech (Clermont School of Business).
-
-**Auteur** : Yvann Ahoure  
-**Date** : Mars 2026  
-**Statut** : En cours de développement
-
-## 📧 Contact
-Pour toute question sur ce projet : yvannahoure@outlook.fr
+Projet personnel réalisé dans le cadre du MSc Corporate Finance (Clermont School of Business).
 
 ---
 
-*Disclaimer: Cette analyse est réalisée à des fins éducatives et ne constitue pas un conseil en investissement.*
+*Cette analyse est réalisée à titre éducatif et ne constitue pas un conseil en investissement.*
